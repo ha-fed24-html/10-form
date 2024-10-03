@@ -35,3 +35,14 @@ input[type="checkbox"], input[type="radio"] {
 	width: 1em;
 	height: 1em;
 }
+
+input:valid {
+	background-color: rgb(205, 239, 205);
+}
+input:invalid {
+	background-color: rgb(217, 164, 164);
+}
+input:optional {
+	background-color: rgb(240, 213, 161);
+}
+/* Avancerat tips: kombinera med ::before eller ::after */
