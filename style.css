@@ -1,0 +1,32 @@
+body {
+	background-color: rgb(189, 189, 242);
+	color: rgb(9, 13, 43);
+	font-size: 125%;
+}
+
+form {
+	border: 1px solid white;
+	padding: 1em;
+}
+button {
+	font-size: 1.25rem;
+	padding: 0.3em 0.6em;
+}
+button:hover {
+	cursor: pointer;
+	background-color: rgb(185, 185, 245);
+}
+input {
+	font-size: 1.25rem;
+}
+label {
+	font-weight: bold;
+}
+
+.form-field {
+	display: flex;
+	flex-direction: column;
+}
+input {
+	max-width: 30em;
+}
