@@ -9,7 +9,7 @@
 <body>
 	<h1> HTML formulär </h1>
 
-	<form>
+	<form action="#">
 		<p>
 			Detta är ett formulär! Klicka för att spara/skicka/logga in...
 		</p>
@@ -22,11 +22,40 @@
 			<input id="fav-course" type="text" value="" placeholder="HTML och CSS" />
 		</p>
 		<p>
-			<button> Do it! </button>
-			<button> Do something else! </button>
+			<button type="button"> Normal button! </button>
+			<button type="reset"> Reset! </button>
 		</p>
 		<a href="#"> Länk </a>
+		<p class="form-field">
+			<label>
+				<input type="checkbox" checked />
+				Jag vill ha extra majonnäs
+			</label>
+			<div>
+				<input id="extra-gurka" type="checkbox" />
+				<label for="extra-gurka"> Jag vill ha extra gurka </label>
+			</div>
+		</p>
+		<div class="form-field">
+			<p> Vilken sorts bröd vill du ha? </p>
+
+			<label>
+				<input type="radio" name="bread" /> Fullkorn
+			</label>
+			<label>
+				<input type="radio" name="bread" /> Tortilla
+			</label>
+			<label>
+				<input type="radio" name="bread" /> Knäckebröd
+			</label>
+		</div>
+		<p>
+			<button type="submit"> Skicka formuläret <strong>NU</strong>! </button>
+			<input type="submit" value="Skicka formuläret <strong>NU</strong>!" />
+		</p>
 	</form>
+
+	<input type="submit" value="Jag är utanför!" />
 
 </body>
 </html>
